@@ -10,3 +10,17 @@
 
 
 
+var studente = 
+{
+    nome: 'Mattia',
+    cognome: 'Rovito',
+    età: '30'
+};
+
+
+for (var key in studente)
+{
+    console.log(studente[key]);
+}
+
+//TODO Fine prima parte dell'esercizio
